@@ -1,0 +1,145 @@
+body {
+    background-color: #03045E;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10%;
+
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+#container {
+    background-color: #00509d;
+    width: 100%;
+    margin: 20px auto;
+    border: 5px double #ffd60a;
+}
+
+nav {
+    background-color: #89c2d9;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;  
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    background-color: #023e8a;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: 8px outset #03045e;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+nav li a:hover {
+    background-color: #023e8a;
+    color: white;
+    border: 6px outset #ffd60a;
+}
+
+main {
+    display: flex;
+}
+
+section, aside {
+    border: 5px double #001d3d;
+    border-radius: 10%;
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+.single_page {
+    width: 100%;
+}
+
+#img_resize {
+    width: 50%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+#box {
+    display: flex;
+}
+
+.col {
+    width: 60%;
+    border: 5px double black;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #89c2d9;
+    text-align: center;
+    padding: 40px 0;
+    color: #03045E;
+    font-weight: bold;
+}
+
+.button {
+    display: block;
+    width: 70px;
+    height: 15px;
+    line-height: 10px;
+    background-color: #00a8e8;
+    color: #001f54;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px auto;
+    padding: 10px;
+    text-align: center;
+    border: 5px double #034078;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #72ddf7;
+    border-color: #ffd60a;
+}
+
+table {
+    border: 5px double #001d3d;
+    margin: 10px auto;
+}
+
+td, tr {
+    border: 2px solid #001d3d;
+}
+
