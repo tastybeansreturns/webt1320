@@ -1,0 +1,384 @@
+/* Phone Style */
+
+body {
+    background-color: #003366;
+}
+
+img {
+    display: block;
+    margin: 5px auto;
+    width: 95%;
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+    text-align: center;
+}
+
+#container {
+    background-color: #004C99;
+}
+
+nav {
+    border-top: 5px solid #00132D;
+    border-bottom: 5px solid #00132D;
+    background-color: #004C99;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    border: 5px outset white;
+}
+
+nav li a {
+    display: block;
+    line-height: 20px;
+    /* Centers text vertically*/
+    background-color: #002657;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 0;
+
+}
+
+nav li a:hover {
+    background-color: #007FFF;
+    color: white;
+}
+
+main {
+    padding: 5px;
+}
+
+section,
+aside {
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #007FFF;
+    border-radius: 15px;
+}
+
+a {
+    color: #00132D;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #007FFF;
+    text-decoration: none;
+}
+
+.col {
+    padding: 5px;
+    border-top: 2px solid #00132D;
+}
+
+footer {
+    background-color: white;
+    color: #00132D;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.button {
+    display: block;
+    width: 80px;
+    height: 15px;
+    line-height: 10px;
+    background-color: #002657;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px auto;
+    padding: 10px;
+    text-align: center;
+    border: 5px outset white;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #007FFF;
+    border-color: white;
+    color: white;
+}
+
+table {
+    border: #002657;
+}
+
+
+.one {
+    width: 45px;
+    object-fit: contain;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    tr,
+    td {
+        border: 5px solid #002657;
+        padding: 10px;
+    }
+
+/* End phone style */
+
+
+/* Tablet style */
+
+
+@media (min-width: 768px) {
+    img {
+        width: 65%;
+        margin: 10px auto;
+    }
+
+    nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a {
+        width: 180px;
+        margin: 0 1px;
+        border-radius: 15px;
+        border: 5px outset white;
+        background-color: #002657;
+        color: white;
+        text-decoration: none;
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px 0;
+    }
+
+    nav li a:hover {
+        background-color: #007FFF;
+    color: white;
+    }
+
+    main {
+        display: flex;
+    }
+
+    section,
+    aside {
+        padding: 10px;
+        margin: 10px;
+        border: 5px solid #007FFF;
+        border-radius: 15px;
+    }
+
+    section {
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    aside {
+        width: 30%;
+    }
+
+    a {
+        color: #00132D;
+        text-decoration: none;
+    
+    }
+    
+    a:hover {
+        color: #007FFF;
+        text-decoration: none;
+    }
+
+    .one {
+        width: 100px;
+        object-fit: contain;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+        tr,
+        td {
+            border: 5px solid #002657;
+            padding: 10px;
+        }
+    
+        }
+
+/* end tablet style */
+
+/* Desktop style */
+
+@media (min-width: 1024px) {
+    
+    body {
+        background-color: #003366;
+    }
+
+    #container {
+        width: 70%;
+        margin: 50px auto;
+        background-color: #004C99;
+    }
+
+    img {
+        display: block;
+        margin: 10px auto;
+        width: 70%;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: white;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    nav {
+        border-top: 5px solid #00132D;
+            border-bottom: 5px solid #00132D;
+            background-color: #004C99;
+            padding: 2px 0;
+            text-align: center;
+        }
+        
+        nav ul {
+            padding: 0;
+        list-style-type: none;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        display: inline-block;
+        line-height: 40px;
+        /* Centers text vertically*/
+        background-color: #002657;
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+        padding: 5px 0;
+    }
+
+    nav li a:hover {
+        background-color: #007FFF;
+        color: white;
+    }
+
+    section, aside {
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #007FFF;
+    border-radius: 15px;
+}
+
+a {
+    color: #00132D;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: #007FFF;
+    text-decoration: none;
+}
+
+
+    #box {
+        border-top: 5px solid #00132D;
+    border-bottom: 5px solid #00132D;
+        display: flex;
+    }
+
+    .col {
+        border: 5px solid #001933;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .single_page {
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    main {
+        padding: 5px;
+    }
+
+
+
+    footer {
+        background-color: white;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px 0;
+        color: #00132D;
+    }
+
+    .button {
+        display: block;
+        width: 95px;
+        height: 15px;
+        line-height: 10px;
+        background-color: #002657;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        margin: 5px auto;
+        padding: 10px;
+        text-align: center;
+        border: 5px outset white;
+        border-radius: 10px;
+    }
+    
+    .button:hover {
+        background-color: #007FFF;
+        border-color: white;
+        color: white;
+    }
+
+    .one {
+        width: 100px;
+        object-fit: contain;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        tr,
+        td {
+            border: 5px solid #002657;
+            padding: 10px;
+        }
+
+}
+
+
+/* End desktop style */
