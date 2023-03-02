@@ -1,7 +1,7 @@
 /* Phone Style */
 
 body {
-    background-color: #003366;
+    background-color: #70E000;
     font-family: "Bebas Neue";
 }
 
@@ -29,14 +29,14 @@ header {
 }
 
 #container {
-    background-color: #004C99;
+    background-color: #006400;
     margin: 10px 2px;
 }
 
 nav {
-    border-top: 5px solid #00132D;
-    border-bottom: 5px solid #00132D;
-    background-color: #004C99;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    background-color: #70E000;
     padding: 2px 0;
     text-align: center;
 }
@@ -55,7 +55,7 @@ nav li a {
     display: block;
     line-height: 15px;
     /* Centers text vertically*/
-    background-color: #002657;
+    background-color: #006400;
     color: white;
     text-decoration: none;
     font-size: 1.2em;
@@ -64,7 +64,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #007FFF;
+    background-color: #38B000;
     color: white;
 }
 
@@ -76,31 +76,31 @@ section,
 aside {
     padding: 10px;
     margin: 10px auto;
-    border: 5px solid #007FFF;
+    border: 5px solid white;
     border-radius: 15px;
     width: 90%;
+    color: white;
 }
 
 
 a {
-    color: red;
+    color: #16db65;
     text-decoration: underline;
-
 }
 
 a:hover {
-    color: chartreuse;
+    color: #93ff96;
     text-decoration: none;
 }
 
 
 footer {
-    background-color: white;
+    background-color: #006400;
     font-weight: bold;
     text-align: center;
     padding: 20px 0;
-    color: #00132D;
-    border: 5px solid #007FFF;
+    color: white;
+    border: 5px solid white;
     border-radius: 15px;
     font-size: 1.2em;
     width: 93%;
@@ -131,7 +131,7 @@ footer {
 } */
 
 table {
-    border: #002657;
+    border: white;
 }
 
 
@@ -143,7 +143,7 @@ table {
 
 tr,
 td {
-    border: 5px solid #002657;
+    border: 5px solid white;
     padding: 10px;
 }
 
@@ -152,7 +152,7 @@ td {
 }
 
 .col {
-    border: 5px solid #001933;
+    border: 5px solid white;
     padding: 10px;
     margin: 10px auto;
 }
@@ -216,7 +216,7 @@ video, audio {
         margin: 0 1px;
         border-radius: 15px;
         border: 5px outset white;
-        background-color: #002657;
+        background-color: #006400;
         color: white;
         text-decoration: none;
         font-size: 1.3em;
@@ -225,7 +225,7 @@ video, audio {
     }
 
     nav li a:hover {
-        background-color: #007FFF;
+        background-color: #38B000;
         color: white;
     }
 
@@ -235,7 +235,7 @@ video, audio {
     }
 
     body {
-        background-color: #003366;
+        background-color: #70E000;
         font-family: "Bebas Neue";
     }
 
@@ -262,17 +262,17 @@ video, audio {
         width: 95%;
         padding: 10px;
         margin: 10px 10px;
-        border: 5px solid #007FFF;
+        border: 5px solid white;
         border-radius: 15px;
     }
 
     a {
-        color: red;
+        color: #16db65;
         text-decoration: underline;
     }
 
     a:hover {
-        color: chartreuse;
+        color: #93ff96;
         text-decoration: none;
     }
 
@@ -282,7 +282,7 @@ video, audio {
     }
 
     .col {
-        border: 5px solid #001933;
+        border: 5px solid white;
         padding: 10px;
         margin: 10px auto;
     }
@@ -319,12 +319,12 @@ video, audio {
 
     footer {
         width: 96%;
-        background-color: white;
+        background-color: #006400;
         font-weight: bold;
         text-align: center;
         padding: 20px 0;
-        color: #00132D;
-        border: 5px solid #007FFF;
+        color: white;
+        border: 5px solid white;
         border-radius: 15px;
         font-size: 1.2em;
     }
@@ -339,7 +339,7 @@ video, audio {
 
     tr,
     td {
-        border: 5px solid #002657;
+        border: 5px solid white;
         padding: 5px;
     }
 
@@ -382,7 +382,7 @@ video, audio {
     }
 
     body {
-        background-color: #003366;
+        background-color: #70E000;
         font-family: "Bebas Neue";
     }
 
@@ -390,7 +390,7 @@ video, audio {
         width: 80%;
         margin: 50px auto;
         padding: 10px;
-        background-color: #004C99;
+        background-color: #006400;
     }
 
     h1,
@@ -406,9 +406,9 @@ video, audio {
     }
 
     nav {
-        border-top: 5px solid #00132D;
-        border-bottom: 5px solid #00132D;
-        background-color: #004C99;
+        border-top: 5px solid white;
+        border-bottom: 5px solid white;
+        background-color: #70E000;
         padding: 2px 0;
         text-align: center;
     }
@@ -426,7 +426,7 @@ video, audio {
         line-height: 40px;
         /* Centers text vertically*/
         width: 170px;
-        background-color: #002657;
+        background-color: #006400;
         color: white;
         text-decoration: none;
         font-size: 1.5em;
@@ -434,7 +434,7 @@ video, audio {
     }
 
     nav li a:hover {
-        background-color: #007FFF;
+        background-color: #38B000;
         color: white;
     }
 
@@ -447,18 +447,18 @@ video, audio {
         width: 95%;
         padding: 10px;
         margin: 10px 10px;
-        border: 5px solid #007FFF;
+        border: 5px solid white;
         border-radius: 15px;
         font-size: 1.2em;
     }
 
     a {
-        color: red;
+        color: #16db65;
         text-decoration: underline;
     }
 
     a:hover {
-        color: chartreuse;
+        color: #93ff96;
         text-decoration: none;
     }
 
@@ -468,7 +468,7 @@ video, audio {
     }
 
     .col {
-        border: 5px solid #001933;
+        border: 5px solid white;
         padding: 10px;
         margin: 10px auto;
     }
@@ -504,12 +504,12 @@ video, audio {
 
 
     footer {
-        background-color: white;
+        background-color: #006400;
         font-weight: bold;
         text-align: center;
         padding: 20px 0;
-        color: #00132D;
-        border: 5px solid #007FFF;
+        color: white;
+        border: 5px solid white;
         border-radius: 15px;
         font-size: 1.2em;
     }
@@ -523,7 +523,7 @@ video, audio {
 
     tr,
     td {
-        border: 5px solid #002657;
+        border: 5px solid white;
         padding: 5px;
     }
 
